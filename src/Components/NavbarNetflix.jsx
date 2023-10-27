@@ -4,7 +4,7 @@ import { Bell, PersonCircle, Search } from "react-bootstrap-icons"
 
 const NavbarNetflix = ()=>{
     return(
-        <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" >
         <Container fluid>
           <Navbar.Brand href="#home">
           <img

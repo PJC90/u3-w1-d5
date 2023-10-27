@@ -8,15 +8,14 @@ import Galleria from './Components/Galleria'
 
 function App() {
   return (
-    <div>
+    <>
       <NavbarNetflix />
       <TitlePage />
-
-      <Galleria title="Trending Now" />
-      <Galleria title="Watch it Again" />
-      <Galleria title="New Releases" />
+      <Galleria title="Trending Now" searchFilm="lupin" />
+      <Galleria title="Watch it Again" searchFilm="boris" />
+      <Galleria title="New Releases" searchFilm="breaking bad" />
       <FooterNetflix />
-    </div>
+    </>
   )
 }
 
