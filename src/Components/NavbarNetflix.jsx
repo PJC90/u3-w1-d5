@@ -16,21 +16,21 @@ const NavbarNetflix = ()=>{
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse>
             <Nav className="me-auto">
-              <Nav.Link href="#home" >Home</Nav.Link>
-              <Nav.Link href="#link">TV Shows</Nav.Link>
-              <Nav.Link href="#link">Movies</Nav.Link>
-              <Nav.Link href="#link">Recently Added</Nav.Link>
-              <Nav.Link href="#link">My List</Nav.Link>
+              <Nav.Link  >Home</Nav.Link>
+              <Nav.Link>TV Shows</Nav.Link>
+              <Nav.Link>Movies</Nav.Link>
+              <Nav.Link>Recently Added</Nav.Link>
+              <Nav.Link>My List</Nav.Link>
             </Nav>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#features"><Search /></Nav.Link>
-            <Nav.Link href="#pricing">KIDS</Nav.Link>
-            <Nav.Link href="#pricing"><Bell/></Nav.Link>
-            <Nav.Link href="#pricing"><PersonCircle/></Nav.Link>
+        <Navbar.Collapse >
+          <Nav className="ms-auto d-flex flex-row me-3">
+            <Nav.Link ><Search /></Nav.Link>
+            <Nav.Link >KIDS</Nav.Link>
+            <Nav.Link ><Bell/></Nav.Link>
+            <Nav.Link ><PersonCircle/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
           </Navbar.Collapse>
